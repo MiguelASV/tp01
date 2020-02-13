@@ -1,0 +1,47 @@
+/*Ajout d'un extend au*/
+.texte-header {
+    @extend .small-uppercase;
+    font-size: 1em;
+    color: cyan;
+}
+
+/*Pour Stylisé le bouton recherche "loupe"*/
+#btnRecherche {
+    font-size: 2em;
+    color : white;
+    margin-right: 1%;
+}
+
+/*Pour Stylisé le bouton recherche "cancel"*/
+#cancelRecherche {
+    font-size: 1.5em;
+    color : white;
+    margin-right: 1%;
+    line-height: 40px;
+    display: none;
+}
+/*Masquer la barre de recherche dès le départ*/
+.barreRecherche {
+    display: none;
+}
+/*Masquer le checkbox*/
+#checkRecherche {
+    display: none;
+}
+/*Afficher la barre de recherche lorsque le checkbox est coché*/
+#checkRecherche:checked ~ .barreRecherche {
+    display: flex;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    position: absolute;
+    width: 90%;
+    padding: 9px;
+}
+/*Masquer l'icone de la loupe lorsque le checkbox est coché*/
+#checkRecherche:checked ~ #btnRecherche  {
+    display: none;
+}
+/*Afficher l'icone X lorsque le checkbox est coché*/
+#checkRecherche:checked ~ #cancelRecherche  {
+    display: block;
+}
+
