@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Auteur: Miguel Santana
+Auteur: Eddy Martin
 Description: Gabarit de base permettant d'explorer Sass et différents techniques CSS
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -314,7 +314,7 @@ On définit ici des règles de styles générales qui peuvent être enrichies ai
 Ces règles servent de bases  
 */
 header {
-  color: white;
+  color: #b19090;
 }
 
 header h1 {
@@ -327,10 +327,6 @@ header h2 {
   font-size: 1em;
   padding: 0 0 20px 0;
   margin: 0;
-}
-
-header p {
-  color: black;
 }
 
 @media screen and (min-width: 600px) {
@@ -402,7 +398,7 @@ main {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   background-color: white;
-  color: #1b1b1b;
+  color: #494545;
 }
 
 main section {
@@ -607,7 +603,7 @@ l'état checked est testé par un le sélecteur suivant:
   text-decoration: none;
   display: block;
   padding: 6px 3px 3px 30px;
-  color: white;
+  color: #979090;
 }
 
 #menu ul li a:hover {
@@ -757,7 +753,7 @@ desktop : 4 colonnes
 #pied-page {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #999999;
+  color: #2f2c2c;
 }
 
 #pied-page section {
@@ -1200,8 +1196,8 @@ img {
 ---------------------------------------------------------------- */
 @-webkit-keyframes animEntete {
   from {
-    -webkit-transform: translateX(500px);
-            transform: translateX(500px);
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
   }
   to {
     -webkit-transform: translateX(0px);
@@ -1210,8 +1206,8 @@ img {
 }
 @keyframes animEntete {
   from {
-    -webkit-transform: translateX(500px);
-            transform: translateX(500px);
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
   }
   to {
     -webkit-transform: translateX(0px);
