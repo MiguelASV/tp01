@@ -17,6 +17,7 @@ License: GNU General Public License v2 or later
 # Bouton
 # Slider
 # Anim Entete
+# Anim Sous Entete 
 # Tableau
 
 ----------------------------------------------------------------
@@ -1300,6 +1301,35 @@ img {
 .animEntete {
   -webkit-animation: animEntete 1s;
           animation: animEntete 1s;
+}
+
+/*-------------------------------------------------------------- 
+# Anim Sous Entete 
+---------------------------------------------------------------- */
+@-webkit-keyframes animSousEntete {
+  from {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+@keyframes animSousEntete {
+  from {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.animSousEntete {
+  -webkit-animation: animSousEntete 1s;
+          animation: animSousEntete 1s;
 }
 
 /*-------------------------------------------------------------- */

@@ -1,0 +1,12 @@
+@keyframes animSousEntete{
+    from {
+        transform : translateX(500px);
+    }
+    to{
+        transform : translateX(0px);
+    }
+}
+
+.animSousEntete {
+    animation : animSousEntete 1s; 
+}

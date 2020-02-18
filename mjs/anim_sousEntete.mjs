@@ -1,14 +1,14 @@
-export class anim_enteteEntete {
-    constructor(elmEntete) {
-      this.elmEntete = elmEntete
+export class anim_sousEntete {
+    constructor(elmSousEntete) {
+      this.elmSousEntete = elmSousEntete
     }
     
-    anim(){
+    animSousEntete(){
         console.log('///////// animation //////////')
         //console.log(this.elmEntete.tagName)
-        let elmTitre = this.elmEntete.children[0]
+        let elmTitre = this.elmSousEntete.children[1]
         console.log(elmTitre.tagName)
-        elmTitre.classList.add('animEntete')
+        elmTitre.classList.add('animSousEntete')
     }
     
     }

@@ -17,6 +17,7 @@ License: GNU General Public License v2 or later
 # Bouton
 # Slider
 # Anim Entete
+# Anim Sous Entete 
 # Tableau
 
 ----------------------------------------------------------------
@@ -67,5 +68,10 @@ License: GNU General Public License v2 or later
 # Anim Entete 
 ---------------------------------------------------------------- */
  @import "_anim_entete.scss";
+/*-------------------------------------------------------------- 
+# Anim Sous Entete 
+---------------------------------------------------------------- */
+@import "_anim_sousEntete.scss";
 /*-------------------------------------------------------------- */
+
 
