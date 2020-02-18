@@ -1,12 +1,22 @@
 @keyframes animSousEntete{
-    from {
+    0% {
         transform : translateX(500px);
+        transform: skewX(-20deg);
+        
     }
-    to{
+    30%{
+        transform : translateX(250px);
+    }
+    90% {
+        transform: skewX(20deg);
+    }
+    100% {
         transform : translateX(0px);
+        transform: skewY(0deg);
     }
 }
 
 .animSousEntete {
-    animation : animSousEntete 1s; 
+    animation : animSousEntete 1s;
+    
 }
