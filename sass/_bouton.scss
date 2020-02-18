@@ -38,7 +38,7 @@
 
 .btn-rouge {
     @extend %btn;
-    @include bouton-bg($couleur_rouge);
+    @include bouton-bg($couleur_kaki);
 }
 
 .bouton {

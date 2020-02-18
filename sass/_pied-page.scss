@@ -23,7 +23,7 @@ desktop : 4 colonnes
         padding: 10px 0 10px 0;
         flex :1;
         text-align : center;
-        border: 3px dotted lighten($couleur_rouge, 17%);
+        border: 3px dotted lighten($couleur_kaki, 17%);
         &:nth-of-type(1){
             @include label("Un", #0ff, white);
             }

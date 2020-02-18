@@ -374,13 +374,19 @@ footer {
           justify-content: center;
 }
 
+/*
+header {
+    //z-index: 999;
+   // flex:1;
+}
+*/
 header,
 footer {
-  background-color: #ba5252;
+  background-color: #05111e;
 }
 
 nav {
-  background-color: #652828;
+  background-color: #9f9160;
 }
 
 main {
@@ -481,7 +487,7 @@ main section p {
       -ms-grid-row-align: stretch;
       align-self: stretch;
   min-height: 100%;
-  background-color: #471c1c;
+  background-color: #766b47;
   border: none;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 200px;
@@ -559,7 +565,7 @@ l'état checked est testé par un le sélecteur suivant:
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  background-color: #522121;
+  background-color: #9f9160;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -584,7 +590,7 @@ l'état checked est testé par un le sélecteur suivant:
   height: auto;
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
-  background-color: #522121;
+  background-color: #9f9160;
 }
 
 #menu ul li {
@@ -611,7 +617,7 @@ l'état checked est testé par un le sélecteur suivant:
 }
 
 #menu ul li a:hover {
-  background-color: #ba5252;
+  background-color: #c5bda0;
   color: #fff;
 }
 
@@ -644,7 +650,7 @@ l'état checked est testé par un le sélecteur suivant:
     width: 80%;
     margin-left: 5%;
     margin-right: 0%;
-    padding-left: 10pxpx;
+    padding-left: 10px;
     display: none;
     -ms-flex-item-align: stretch;
         -ms-grid-row-align: stretch;
@@ -742,8 +748,15 @@ l'état checked est testé par un le sélecteur suivant:
     z-index: 1;
   }
   #menu ul li a:hover {
-    background-color: #9c3d3d;
+    background-color: #b2a780;
   }
+}
+
+/*-------------------------------------------------------------- 
+# Anim Entete 
+---------------------------------------------------------------- */
+body {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -785,7 +798,7 @@ desktop : 4 colonnes
       -ms-flex: 1;
           flex: 1;
   text-align: center;
-  border: 3px dotted #b54848;
+  border: 3px dotted #c0b696;
 }
 
 #pied-page ul:nth-of-type(1) {
@@ -974,17 +987,17 @@ desktop : 4 colonnes
 }
 
 .btn-rouge {
-  background: #772f2f;
+  background: #9f9160;
 }
 
 .btn-rouge:hover {
-  background: #5a2323;
+  background: #867a51;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .btn-rouge:active {
-  background: #1c0b0b;
+  background: #504930;
 }
 
 .bouton {
@@ -1114,10 +1127,7 @@ scroll-snap-type: mandatory;
   font-size: 100px;
 }
 
-.slides > div:target {
-  /* transform: scale(0.8); */
-}
-
+/* transform: scale(0.8); */
 .author-info {
   background: rgba(0, 0, 0, 0.75);
   color: white;

@@ -16,19 +16,20 @@ footer {
     display: flex;
     justify-content: center;
 }
+/*
 header {
     //z-index: 999;
    // flex:1;
 }
-
+*/
 header,
 footer {
     // chaque section pricipale une couleur en bg sur 100vw
-    background-color: lighten($couleur_rouge, 20%);
+    background-color: $couleur_bleufonce;
 }
 
 nav {
-    background-color: darken($couleur_rouge, 5%);
+    background-color: $couleur_kaki;
 }
 
 main {
@@ -39,7 +40,7 @@ main {
     align-items: center; // pour que la section .global soit centrée
     justify-content: center;
     flex : 1 1 auto; // pour pousser le footer en bas du viewport
-    background-color: lighten($couleur_rouge, 70%);
+    background-color: $couleur_blanc;
     color :  $couleur_noir;
     
     section {
