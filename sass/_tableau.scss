@@ -5,27 +5,47 @@
     grid-template-rows: repeat(2, 1fr);
     border: 2px solid black;
     margin-bottom: 5%;
+    grid-gap: 1em;
+    background-color: lightgrey;
     div{
+        position: relative;
         text-align: center;
         height: 100%;
         &:hover {
-            background-color: black;
+            background-color: $couleur_kaki;
         }
     }
     img{
         width: 100%;
         height: 100%;
     }
+    p{
+        position: absolute;
+        margin : 0;
+        top: 50%;
+        left: 30%;
+        font-weight: bold;
+        color: white;
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width: 600px) {
     .tableau{
         max-width: 500px;
+        p{
+            left: 33%;
+            font-size: 1em;
+        }
     }
 }
 
 @media screen and (min-width: 1000px) {
     .tableau{
         max-width: 600px;
+        font-size: 1.2em;
+        p{
+            left: 30%;
+        }
     }
 }
