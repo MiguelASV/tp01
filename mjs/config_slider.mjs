@@ -7,7 +7,7 @@ export const config_slider = {
         {
             titre : 'Le Titre',
             sousTitre : 'Le sous titre',
-            img : '../img/bastet.jpg'
+            img : './img/bastet.jpg'
         },
         {
             titre : 'Le Titre',
